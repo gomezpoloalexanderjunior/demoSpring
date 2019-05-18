@@ -39,6 +39,9 @@ public class Paciente {
 	@Column(name = "genero", length = 10)
 	private String genero;
 	
+	@Column(name = "seguro", length = 20)
+	private String seguro;
+	
 }
 
 
